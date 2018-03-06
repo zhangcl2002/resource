@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableResourceServer
 @RestController
-
 public class Application {
 	
 /*	@Bean
@@ -42,7 +41,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello World";
+		return "{'message':'Hello World'}";
 	}
 
 }
